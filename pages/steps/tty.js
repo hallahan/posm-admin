@@ -52,6 +52,14 @@ tty.elements;
  * Open
  */
 
+var openTerminal = tty.openTerminal = function(top) {
+  var window = new Window;
+  if (typeof top === 'number') {
+    $(window.element).css({top: top});
+  }
+  return window;
+};
+
 tty.open = function() {
   if (document.location.pathname) {
     // var parts = document.location.pathname.split('/')
@@ -83,7 +91,7 @@ tty.open = function() {
 
   if (open) {
     on(open, 'click', function() {
-      new Window;
+      openTerminal();
     });
   }
 
