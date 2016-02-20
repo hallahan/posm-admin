@@ -1,0 +1,35 @@
+{
+  "name": "posm-console",
+  "version": "0.0.1",
+  "description": "A console based application to control POSM data provisioning and deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallahan/posm-console.git"
+  },
+  "keywords": [
+    "POSM",
+    "OpenStreetMap",
+    "OpenMapKit",
+    "console",
+    "terminal",
+    "socket.io",
+    "deployment",
+    "provision"
+  ],
+  "author": "Nicholas Hallahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hallahan/posm-console/issues"
+  },
+  "homepage": "https://github.com/hallahan/posm-console#readme",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "serve-index": "^1.7.3",
+    "tty.js": "^0.2.15"
+  }
+}
