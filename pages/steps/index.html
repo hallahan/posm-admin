@@ -5,7 +5,7 @@
 
 <h1>POSM Console - Steps</h1>
 
-<button id="open">Open Terminal</button>
+<button id="open">New Terminal</button>
 
 <script src='jquery-2.1.1.min.js'></script>
 <script src="/socket.io/socket.io.js"></script>
@@ -13,11 +13,14 @@
 <script src="/options.js"></script>
 <script src="tty.js"></script>
 
-<h2>Bash Terminal</h2>
+<h2>Generate MBTiles <button>Execute</button></h2>
 <div id="termDiv1" class="term-space"></div>
-<h2>Another Script</h2>
+
+<h2>Fetch OSM XML <button>Execute</button></h2>
+<label>BBox: <input type="text"></label>
 <div id="termDiv2" class="term-space"></div>
-<h2>And Another</h2>
+
+<h2>Convert OSM XML → PBF <button>Execute</button></h2>
 <div id="termDiv3" class="term-space"></div>
 
 <script src="steps.js"></script>
