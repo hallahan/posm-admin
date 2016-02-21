@@ -17,8 +17,4 @@ app.use(cors());
 app.use('/posm-console/pages', express.static(__dirname + '/pages'));
 app.use('/posm-console/pages', directory(__dirname + '/pages'));
 
-app.get('/test', function(req, res, next) {
-  res.send('bar');
-});
-
 app.listen();
