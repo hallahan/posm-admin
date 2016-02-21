@@ -149,6 +149,7 @@ h1 {
   background: none;
   border: none;
   -webkit-appearance: none;
+  z-index:1010;
 }
 
 #open {
