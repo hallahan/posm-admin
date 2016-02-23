@@ -1,14 +1,14 @@
 {
-  "name": "posm-console",
+  "name": "posm-admin",
   "version": "0.0.1",
-  "description": "A console based application to control POSM data provisioning and deployment.",
+  "description": "The POSM administration application used to control POSM data provisioning and deployment.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hallahan/posm-console.git"
+    "url": "git+https://github.com/hallahan/posm-admin.git"
   },
   "keywords": [
     "POSM",
@@ -23,10 +23,11 @@
   "author": "Nicholas Hallahan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hallahan/posm-console/issues"
+    "url": "https://github.com/hallahan/posm-admin/issues"
   },
-  "homepage": "https://github.com/hallahan/posm-console#readme",
+  "homepage": "https://github.com/hallahan/posm-admin#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "serve-index": "^1.7.3",
