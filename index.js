@@ -3,14 +3,16 @@ var express = require('express');
 var directory = require('serve-index');
 var cors = require('cors');
 var bodyParser = require('body-parser');
+var mkdirp = require('mkdirp');
 var routes = require('./api/routes');
+var settings = require('./settings');
 
 var app = tty.createServer({
   shell: 'bash',
   users: {
     posm: 'posm'
   },
-  port: 4321
+  port: settings.port
 });
 
 // Enable CORS always.

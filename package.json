@@ -30,6 +30,7 @@
     "body-parser": "^1.15.0",
     "cors": "^2.7.1",
     "express": "^4.13.4",
+    "mkdirp": "^0.5.1",
     "serve-index": "^1.7.3",
     "tty.js": "^0.2.15"
   }
