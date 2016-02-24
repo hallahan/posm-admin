@@ -1,5 +1,5 @@
 module.exports = {
     port: 4321,
-    dataDir: '/opt/data'
+    deploymentsDir: '/opt/data/deployments'
 };
 
